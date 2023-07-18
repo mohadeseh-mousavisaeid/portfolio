@@ -1,0 +1,33 @@
+.innerContainer {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.mainTitle {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+.desc {
+  margin-top: 1rem;
+}
+
+.serviceItem {
+  display: flex;
+  align-items: stretch;
+  width: calc(50% - 1rem);
+}
+
+.heading {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  font-size: 1.1em;
+  word-spacing: 0.25em;
+}
+
+.heading svg {
+  color: var(--color-primary);
+}

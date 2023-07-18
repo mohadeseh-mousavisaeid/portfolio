@@ -1,0 +1,90 @@
+:root {
+  --primary-hue: 270;
+  --black-lightness: 15%;
+  --dark-lightness: 44%;
+  --white-lightness: 100%;
+  --light-lightness: 94%;
+  --light-lightness-extreme: 97%;
+  /*  */
+  --color-primary: hsl(var(--primary-hue), 89%, 41%);
+  /*  */
+  --color-black: hsl(var(--primary-hue), 5%, var(--black-lightness));
+  --color-dark: hsl(var(--primary-hue), 5%, var(--dark-lightness));
+  /*  */
+  --color-white: hsl(0, 5%, var(--white-lightness));
+  --color-light: hsl(var(--primary-hue), 5%, var(--light-lightness));
+  --color-lighter: hsl(var(--primary-hue), 5%, var(--light-lightness-extreme));
+
+  /* GENERAL CONTAINER VARIABLES */
+  --container-width-lg: 76%;
+  --container-width-md: 90%;
+
+  /* BORDER RADIUS VARIABLES */
+  --border-radius-1: 1.2rem;
+  --border-radius-2: 0.8rem;
+  --border-radius-3: 0.5rem;
+
+  /* GENERAL TRANSITION VARIABLE */
+  --transition: all 200ms ease;
+}
+
+main {
+  --color-primary: hsl(var(--primary-hue), 89%, 41%);
+  color: var(--color-dark);
+}
+
+main.color-1 {
+  --primary-hue: 270;
+}
+
+main.color-2 {
+  --primary-hue: 110;
+}
+
+main.color-3 {
+  --primary-hue: 240;
+}
+
+main.color-4 {
+  --primary-hue: 325;
+}
+
+main.color-5 {
+  --primary-hue: 0;
+}
+
+main.color-6 {
+  --primary-hue: 35;
+}
+
+main.bg-2 {
+  --black-lightness: 96%;
+  --dark-lightness: 60%;
+  --white-lightness: 6%;
+  --light-lightness: 12%;
+  --light-lightness-extreme: 16%;
+  /*  */
+  --color-white: hsl(0, 5%, var(--white-lightness));
+  --color-light: hsl(var(--primary-hue), 5%, var(--light-lightness));
+  /*  */
+  --color-black: hsl(var(--primary-hue), 5%, var(--black-lightness));
+  --color-dark: hsl(var(--primary-hue), 5%, var(--dark-lightness));
+
+  --color-lighter: hsl(var(--primary-hue), 5%, var(--light-lightness-extreme));
+}
+
+main.bg-3 {
+  --black-lightness: 100%;
+  --dark-lightness: 950%;
+  --white-lightness: 8%;
+  --light-lightness: 12%;
+  --light-lightness-extreme: 18%;
+  /*  */
+  --color-white: hsl(215, 100%, var(--white-lightness));
+  --color-light: hsl(215, 100%, var(--light-lightness));
+  /*  */
+  --color-black: hsl(215, 100%, var(--black-lightness));
+  --color-dark: hsl(215, 100%, var(--dark-lightness));
+
+  --color-lighter: hsl(215, 100%, var(--light-lightness-extreme));
+}

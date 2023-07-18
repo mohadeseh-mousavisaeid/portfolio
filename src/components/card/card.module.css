@@ -1,0 +1,28 @@
+.container {
+  background-color: var(--color-light);
+  padding: 1rem;
+  border-radius: var(--border-radius-3);
+  transition: var(--transition);
+}
+
+.container:hover {
+  transform: translateY(-0.25rem);
+}
+
+.container.modal {
+  padding: 1rem 2rem;
+  border-radius: var(--border-radius-1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container.lighter {
+  background-color: var(--color-lighter);
+}
